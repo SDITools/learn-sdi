@@ -34,9 +34,9 @@ navbar:
         - text: "Linear vs. Logistic Regression"
           href: linear-vs-logistic.html
         - text: "Linear Regression w/ Continuous Variables"
-          href: linear-regression-with-continuous.html
+          href: linear-regression-continuous.html
         - text: "Linear Regression w/ Nominal Variables"
-          href: linear-regression-with-nominal.html
+          href: linear-regression-nominal.html
         - text: "Logistic Regression"
           href: logistic-regression.html
   right:

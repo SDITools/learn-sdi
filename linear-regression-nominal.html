@@ -318,10 +318,10 @@ $(document).ready(function () {
           <a href="linear-vs-logistic.html">Linear vs. Logistic Regression</a>
         </li>
         <li>
-          <a href="linear-regression-with-continuous.html">Linear Regression w/ Continuous Variables</a>
+          <a href="linear-regression-continuous.html">Linear Regression w/ Continuous Variables</a>
         </li>
         <li>
-          <a href="linear-regression-with-nominal.html">Linear Regression w/ Nominal Variables</a>
+          <a href="linear-regression-nominal.html">Linear Regression w/ Nominal Variables</a>
         </li>
         <li>
           <a href="logistic-regression.html">Logistic Regression</a>
@@ -479,7 +479,7 @@ Sessions
 FRI
 </td>
 <td style="text-align:right;width: 6em; ">
-258
+6564
 </td>
 </tr>
 <tr>
@@ -490,7 +490,7 @@ FRI
 SAT
 </td>
 <td style="text-align:right;width: 6em; ">
-60
+4574
 </td>
 </tr>
 <tr>
@@ -501,7 +501,7 @@ SAT
 SUN
 </td>
 <td style="text-align:right;width: 6em; ">
-67
+4133
 </td>
 </tr>
 <tr>
@@ -512,7 +512,7 @@ SUN
 MON
 </td>
 <td style="text-align:right;width: 6em; ">
-387
+7237
 </td>
 </tr>
 <tr>
@@ -523,7 +523,7 @@ MON
 TUE
 </td>
 <td style="text-align:right;width: 6em; ">
-475
+6786
 </td>
 </tr>
 <tr>
@@ -534,7 +534,7 @@ TUE
 WED
 </td>
 <td style="text-align:right;width: 6em; ">
-550
+6660
 </td>
 </tr>
 <tr>
@@ -545,7 +545,7 @@ WED
 THU
 </td>
 <td style="text-align:right;width: 6em; ">
-481
+6957
 </td>
 </tr>
 <tr>
@@ -556,7 +556,7 @@ THU
 FRI
 </td>
 <td style="text-align:right;width: 6em; ">
-335
+6580
 </td>
 </tr>
 <tr>
@@ -567,7 +567,7 @@ FRI
 SAT
 </td>
 <td style="text-align:right;width: 6em; ">
-44
+4735
 </td>
 </tr>
 <tr>
@@ -578,7 +578,7 @@ SAT
 SUN
 </td>
 <td style="text-align:right;width: 6em; ">
-66
+4370
 </td>
 </tr>
 <tr>
@@ -589,7 +589,7 @@ SUN
 MON
 </td>
 <td style="text-align:right;width: 6em; ">
-377
+7725
 </td>
 </tr>
 <tr>
@@ -600,7 +600,7 @@ MON
 TUE
 </td>
 <td style="text-align:right;width: 6em; ">
-418
+7434
 </td>
 </tr>
 </tbody>
@@ -697,7 +697,7 @@ Sessions
 1
 </td>
 <td style="text-align:right;width: 8em; ">
-258
+6564
 </td>
 </tr>
 <tr>
@@ -723,7 +723,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-60
+4574
 </td>
 </tr>
 <tr>
@@ -749,7 +749,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-67
+4133
 </td>
 </tr>
 <tr>
@@ -775,7 +775,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-387
+7237
 </td>
 </tr>
 <tr>
@@ -801,7 +801,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-475
+6786
 </td>
 </tr>
 <tr>
@@ -827,7 +827,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-550
+6660
 </td>
 </tr>
 <tr>
@@ -853,7 +853,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-481
+6957
 </td>
 </tr>
 <tr>
@@ -879,7 +879,7 @@ Sessions
 1
 </td>
 <td style="text-align:right;width: 8em; ">
-335
+6580
 </td>
 </tr>
 <tr>
@@ -905,7 +905,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-44
+4735
 </td>
 </tr>
 <tr>
@@ -931,7 +931,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-66
+4370
 </td>
 </tr>
 <tr>
@@ -957,7 +957,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-377
+7725
 </td>
 </tr>
 <tr>
@@ -983,7 +983,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-418
+7434
 </td>
 </tr>
 </tbody>
@@ -1013,26 +1013,27 @@ model_summary &lt;- summary(step_model)
 model_summary</code></pre>
 <pre><code>## 
 ## Call:
-## lm(formula = Sessions ~ MON + TUE + WED + THU + FRI, data = analysis_data)
+## lm(formula = Sessions ~ SUN + MON + TUE + WED + THU + FRI, data = analysis_data)
 ## 
 ## Residuals:
 ##     Min      1Q  Median      3Q     Max 
-## -208.85  -28.39   -5.71   19.22  321.15 
+## -4356.9  -319.7    79.0   380.3  2569.5 
 ## 
 ## Coefficients:
 ##             Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)    51.58      17.48   2.951  0.00411 ** 
-## MON           203.35      30.28   6.716 2.08e-09 ***
-## TUE           193.27      30.28   6.383 9.08e-09 ***
-## WED           177.27      30.28   5.855 8.98e-08 ***
-## THU           193.59      31.11   6.223 1.83e-08 ***
-## FRI           158.12      30.28   5.222 1.26e-06 ***
+## (Intercept)   5090.2      268.2  18.979  &lt; 2e-16 ***
+## SUN           -632.0      379.3  -1.666   0.0994 .  
+## MON           2515.5      379.3   6.632 3.15e-09 ***
+## TUE           2071.2      379.3   5.461 4.84e-07 ***
+## WED           2471.3      379.3   6.515 5.27e-09 ***
+## THU           2662.7      387.1   6.878 1.05e-09 ***
+## FRI           2167.5      379.3   5.714 1.67e-07 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 89.13 on 84 degrees of freedom
-## Multiple R-squared:  0.493,  Adjusted R-squared:  0.4628 
-## F-statistic: 16.34 on 5 and 84 DF,  p-value: 3.123e-11</code></pre>
+## Residual standard error: 967 on 83 degrees of freedom
+## Multiple R-squared:  0.6424, Adjusted R-squared:  0.6165 
+## F-statistic: 24.85 on 6 and 83 DF,  p-value: &lt; 2.2e-16</code></pre>
 <p>This <em>can</em> be a bit confusing to read, so let’s try to come up with something that, perhaps, is a bit easier to read.</p>
 <p>Start by getting the p-value and the adjusted R-squared for the model overall.</p>
 <pre class="r"><code># Get the p-value and the adjusted R-Squared for the model overall
@@ -1049,7 +1050,7 @@ adj_r_sq &lt;- model_summary$adj.r.squared</code></pre>
 <p>This shows us that the model overall:</p>
 <ul>
 <li>Has a p-value of <strong>0.0000</strong></li>
-<li>Has an adjusted R<sup>2</sup> of <strong>0.463</strong> (meaning 46.3% of the actual results are explained by the model).</li>
+<li>Has an adjusted R<sup>2</sup> of <strong>0.617</strong> (meaning 61.7% of the actual results are explained by the model).</li>
 </ul>
 <p>Now, let’s dig into the actual individual independent variables and their coefficients. This is just a lightly cleaned up visualization of the “variables list” from the model output above. Note that not all days may appear in this table, as the nature of the stepwise regression is that it will add and subtract different features (variables) trying to find the “best” model.</p>
 <pre class="r"><code># Make a data frame with just the coefficients and their significance levels. This is converting
@@ -1089,7 +1090,7 @@ Confidence Level
 (Intercept)
 </td>
 <td style="text-align:right;width: 6em; ">
-52
+5090
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1097,10 +1098,21 @@ Confidence Level
 </tr>
 <tr>
 <td style="text-align:left;width: 6em; ">
+SUN
+</td>
+<td style="text-align:right;width: 6em; ">
+-632
+</td>
+<td style="text-align:center;width: 10em; ">
+90%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 6em; ">
 MON
 </td>
 <td style="text-align:right;width: 6em; ">
-203
+2515
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1111,7 +1123,7 @@ MON
 TUE
 </td>
 <td style="text-align:right;width: 6em; ">
-193
+2071
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1122,7 +1134,7 @@ TUE
 WED
 </td>
 <td style="text-align:right;width: 6em; ">
-177
+2471
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1133,7 +1145,7 @@ WED
 THU
 </td>
 <td style="text-align:right;width: 6em; ">
-194
+2663
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1144,7 +1156,7 @@ THU
 FRI
 </td>
 <td style="text-align:right;width: 6em; ">
-158
+2168
 </td>
 <td style="text-align:center;width: 10em; ">
 99%
@@ -1163,7 +1175,7 @@ model_equation &lt;- ind_vars %&gt;%
 model_equation &lt;- model_equation$rmd %&gt;%
   paste(collapse = &quot; + &quot;) %&gt;% 
   paste0(&quot;$$Sessions = &quot;, ., &quot;$$&quot;)</code></pre>
-<p><strong><span class="math display">\[Sessions = 52 + 203 \times MON + 193 \times TUE + 177 \times WED + 194 \times THU + 158 \times FRI\]</span></strong></p>
+<p><strong><span class="math display">\[Sessions = 5090 + -632 \times SUN + 2515 \times MON + 2071 \times TUE + 2471 \times WED + 2663 \times THU + 2168 \times FRI\]</span></strong></p>
 <p>But, wait. How do I multiply a number by a <em>day</em>?! This gets back to our creation of “dummy variables” earlier. Remember that the data we’re working with created a variable for each day of the week and then assigned each row in the table (each day, each “observation”) as a <code>1</code> (yes, it’s that day) or a <code>0</code> (no, it’s not that day). That means, in the equation above, <em>most</em> of the values will be multipled by <code>0</code> for any given day, while one value will be multiplied by <code>1</code>.</p>
 <pre class="r"><code># Re-display what the data looks like with dummy variables
 kable(head(ga_data_dummies, 12)) %&gt;% kable_styling(full_width = F,
@@ -1225,7 +1237,7 @@ Sessions
 1
 </td>
 <td style="text-align:right;width: 8em; ">
-258
+6564
 </td>
 </tr>
 <tr>
@@ -1251,7 +1263,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-60
+4574
 </td>
 </tr>
 <tr>
@@ -1277,7 +1289,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-67
+4133
 </td>
 </tr>
 <tr>
@@ -1303,7 +1315,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-387
+7237
 </td>
 </tr>
 <tr>
@@ -1329,7 +1341,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-475
+6786
 </td>
 </tr>
 <tr>
@@ -1355,7 +1367,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-550
+6660
 </td>
 </tr>
 <tr>
@@ -1381,7 +1393,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-481
+6957
 </td>
 </tr>
 <tr>
@@ -1407,7 +1419,7 @@ Sessions
 1
 </td>
 <td style="text-align:right;width: 8em; ">
-335
+6580
 </td>
 </tr>
 <tr>
@@ -1433,7 +1445,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-44
+4735
 </td>
 </tr>
 <tr>
@@ -1459,7 +1471,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-66
+4370
 </td>
 </tr>
 <tr>
@@ -1485,7 +1497,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-377
+7725
 </td>
 </tr>
 <tr>
@@ -1511,7 +1523,7 @@ Sessions
 0
 </td>
 <td style="text-align:right;width: 8em; ">
-418
+7434
 </td>
 </tr>
 </tbody>
@@ -1599,10 +1611,10 @@ Predicted
 1
 </td>
 <td style="text-align:right;width: 80em; ">
-258
+6564
 </td>
 <td style="text-align:right;width: 40em; ">
-210
+7258
 </td>
 </tr>
 <tr>
@@ -1628,10 +1640,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-60
+4574
 </td>
 <td style="text-align:right;width: 40em; ">
-52
+5090
 </td>
 </tr>
 <tr>
@@ -1657,10 +1669,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-67
+4133
 </td>
 <td style="text-align:right;width: 40em; ">
-52
+4458
 </td>
 </tr>
 <tr>
@@ -1686,10 +1698,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-387
+7237
 </td>
 <td style="text-align:right;width: 40em; ">
-255
+7606
 </td>
 </tr>
 <tr>
@@ -1715,10 +1727,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-475
+6786
 </td>
 <td style="text-align:right;width: 40em; ">
-245
+7161
 </td>
 </tr>
 <tr>
@@ -1744,10 +1756,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-550
+6660
 </td>
 <td style="text-align:right;width: 40em; ">
-229
+7562
 </td>
 </tr>
 <tr>
@@ -1773,10 +1785,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-481
+6957
 </td>
 <td style="text-align:right;width: 40em; ">
-245
+7753
 </td>
 </tr>
 <tr>
@@ -1802,10 +1814,10 @@ Predicted
 1
 </td>
 <td style="text-align:right;width: 80em; ">
-335
+6580
 </td>
 <td style="text-align:right;width: 40em; ">
-210
+7258
 </td>
 </tr>
 <tr>
@@ -1831,10 +1843,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-44
+4735
 </td>
 <td style="text-align:right;width: 40em; ">
-52
+5090
 </td>
 </tr>
 <tr>
@@ -1860,10 +1872,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-66
+4370
 </td>
 <td style="text-align:right;width: 40em; ">
-52
+4458
 </td>
 </tr>
 <tr>
@@ -1889,10 +1901,10 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-377
+7725
 </td>
 <td style="text-align:right;width: 40em; ">
-255
+7606
 </td>
 </tr>
 <tr>
@@ -1918,23 +1930,23 @@ Predicted
 0
 </td>
 <td style="text-align:right;width: 80em; ">
-418
+7434
 </td>
 <td style="text-align:right;width: 40em; ">
-245
+7161
 </td>
 </tr>
 </tbody>
 </table>
 <p>For reference (if you want to do some math with the above):</p>
-<p><strong><span class="math display">\[Sessions = 52 + 203 \times MON + 193 \times TUE + 177 \times WED + 194 \times THU + 158 \times FRI\]</span></strong></p>
+<p><strong><span class="math display">\[Sessions = 5090 + -632 \times SUN + 2515 \times MON + 2071 \times TUE + 2471 \times WED + 2663 \times THU + 2168 \times FRI\]</span></strong></p>
 </div>
 <div id="plot-the-results" class="section level3">
 <h3>Plot the Results</h3>
 <p>Finally, let’s plot the results showing three things:</p>
 <ul>
 <li><strong>The Actual Sessions</strong></li>
-<li><strong>The Predicted Sessions</strong> – what our regression model (which we determined explains 0.0046% of the actual results)</li>
+<li><strong>The Predicted Sessions</strong> – what our regression model (which we determined explains 0.0062% of the actual results)</li>
 <li><strong>The Intercept</strong> – this is the constant; think of it as the baseline from which each independent variable increases or decreases the prediction</li>
 </ul>
 <pre class="r"><code># Get just the intercept (for a horizontal line we&#39;ll add)
