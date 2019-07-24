@@ -1,0 +1,14 @@
+---
+title: "Data Science for Marketers and Analysts"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](images/cartoon-fpo.png)
+
+## Welcome...
+
+This site is...

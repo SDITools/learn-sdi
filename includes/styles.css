@@ -1,0 +1,91 @@
+/* Remove the title bar */
+.navbar{
+  font-family: "Nunito",helvetica,arial,sans-serf;
+  background-color: #000000;
+  text-align: center;
+} 
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Set the main body/text font */
+p, a {
+    font-family: "Nunito", helvetica,arial,sans-serf;
+    font-size: 1em;
+    margin: 5px 0 5px 0;
+}
+
+/* Main results output */
+h1 {
+  font-family: "Nunito",helvetica,arial,sans-serf;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #0060AF;
+  text-align: left;
+}
+h2 {
+  font-family: "Nunito",helvetica,arial,sans-serf;
+  font-size: 1.4em;
+  text-align: left;
+  line-height: 0.8;
+}
+
+h3 {
+  font-family: "Nunito", helvetica,arial,sans-serf;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Titles at the top of each panel */
+.chart-title {
+  font-family: "Nunito",helvetica,arial,sans-serf;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Overall app title */
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -25px !important;
+}
+
+/* Numerical inputs */
+.form-control {
+  font-size: 17px;
+  padding: 0 10px;
+  background-color: #bdd4f9;
+  border: none;
+  height: 30px;
+}
+
+/* Button formatting */
+.btn {
+  font-family: "Nunito",helvetica,arial,sans-serf;
+  margin-bottom: 10px;
+}
+
+/* Style for explanatory text */
+.descriptions {
+  margin-bottom: 0.5em;
+}
+
+/* Slider input labels */
+.irs-min, .irs-max, .irs-grid-text {
+  font-size: 0.9em;
+}
+
+/* Style the headings for the two main assessment types. This will */
+/* have to be changed if the copy changes, unfortunately */
+#section-overview-and-purpose > div.chart-title,
+#section-assessment-1-detecting-the-existence-of-an-effect > div.chart-title,
+#section-assessment-2-estimating-the-size-of-the-effect > div.chart-title {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #0060AF;
+}
+

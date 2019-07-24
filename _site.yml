@@ -1,0 +1,44 @@
+name: "Learn @ Search Discovery"
+output_dir: "."
+output:
+  html_document:
+    theme: cerulean
+    css: includes/styles.css
+    title-prefix: "Learn @ Search Discovery"
+    includes:
+      before_body: includes/header.html
+
+navbar:
+  title: "Learn"
+  left:
+    - text: "Overview Concepts"
+      menu:
+      - text: "What is Data Science?"
+        href: what-is-data-science.html
+      - text: "What is Machine Learning?"
+        href: what-is-machine-learning.html
+      - text: "What is Artificial Intelligence?"
+        href: what-is-ai.html
+      - text: "Myths about AI"
+        href: myths-about-ai.html
+      - text: "Why Is Data Science Hard (for Marketers)?"
+        href: why-is-data-science-hard.html
+      - text: "Data Science Terminlogy"
+        href: data-science-terminology.html
+    - text: "Statistical Methods"
+      menu:
+      - text: "ANOVA"
+        href: anova.html
+      - text: "Regression"
+        menu:
+        - text: "Linear vs. Logistic Regression"
+          href: linear-vs-logistic.html
+        - text: "Linear Regression w/ Continuous Variables"
+          href: linear-regression-with-continuous.html
+        - text: "Linear Regression w/ Nominal Variables"
+          href: linear-regression-with-nominal.html
+        - text: "Logistic Regression"
+          href: logistic-regression.html
+  right:
+    - icon: includes/logo-sm.png
+      href: https://www.searchdiscovery.com
