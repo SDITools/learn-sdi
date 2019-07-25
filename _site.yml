@@ -21,7 +21,7 @@ navbar:
       - text: "What is Artificial Intelligence?"
         href: what-is-ai.html
       - text: "Myths about AI"
-        href: myths-about-ai.html
+        href: myths-about-artificial Intelligence.html
       - text: "Why Is Data Science So Hard (for Marketers)?"
         href: why-is-data-science-hard.html
       - text: "Data Science Terminlogy"
