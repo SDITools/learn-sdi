@@ -17,6 +17,13 @@ p, a {
     margin: 10px 0 5px 0;
 }
 
+/* Set up bullets */
+ul {
+    font-family: "Nunito", helvetica,arial,sans-serf;
+    font-size: 1.2em;
+    margin: 5px 0 5px 0;
+}
+
 /* Main results output */
 h1 {
   font-family: "Nunito",helvetica,arial,sans-serf;
