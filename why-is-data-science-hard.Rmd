@@ -21,4 +21,4 @@ Neither of these perceptions is correct. The reality is in the middle. In the vi
 * How marketers have been conditioned to work with _aggregated_ data (dimensions and metrics) rather than truly _detailed_ data (and why that matters)
 * The concept of "features" and "feature engineering" -- why simply pushing raw data into a machine learning platform actually misses a critical step (That _requires_ human thought!)
 
-<div style="padding-top:15px; text-align: center;"><iframe width="848" height="477" src="https://www.youtube.com/embed/08ZrnbP4OnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div
+<div style="padding-top:15px; text-align: center;"><iframe width="848" height="477" src="https://www.youtube.com/embed/08ZrnbP4OnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
