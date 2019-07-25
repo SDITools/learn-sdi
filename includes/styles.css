@@ -1,7 +1,8 @@
-/* Remove the title bar */
+/* Format the Title Bar */
 .navbar{
   font-family: "Nunito",helvetica,arial,sans-serf;
   background-color: #000000;
+  background-image: none;
   text-align: center;
 } 
 
@@ -12,17 +13,18 @@ body {
 /* Set the main body/text font */
 p, a {
     font-family: "Nunito", helvetica,arial,sans-serf;
-    font-size: 1em;
-    margin: 5px 0 5px 0;
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
 }
 
 /* Main results output */
 h1 {
   font-family: "Nunito",helvetica,arial,sans-serf;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: bold;
   color: #0060AF;
   text-align: left;
+  margin: 40px 0 5px 0;
 }
 h2 {
   font-family: "Nunito",helvetica,arial,sans-serf;

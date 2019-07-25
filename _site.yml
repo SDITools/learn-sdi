@@ -5,11 +5,12 @@ output:
     theme: cerulean
     css: includes/styles.css
     title-prefix: "Learn @ Search Discovery"
+    logo: includes/logo-sm.png
     includes:
       before_body: includes/header.html
 
 navbar:
-  title: "Learn"
+  title: "Data Science for Customer Data"
   left:
     - text: "Overview Concepts"
       menu:
@@ -21,7 +22,7 @@ navbar:
         href: what-is-ai.html
       - text: "Myths about AI"
         href: myths-about-ai.html
-      - text: "Why Is Data Science Hard (for Marketers)?"
+      - text: "Why Is Data Science So Hard (for Marketers)?"
         href: why-is-data-science-hard.html
       - text: "Data Science Terminlogy"
         href: data-science-terminology.html

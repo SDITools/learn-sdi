@@ -1,5 +1,5 @@
 ---
-title: "Data Science for Marketers and Analysts"
+title: "Welcome to Data Science for Customer Data!"
 output: html_document
 ---
 
@@ -9,6 +9,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](images/cartoon-fpo.png)
 
-## Welcome...
+See the brief video below for an overview of why we've created this site and how we recommend using it:
 
-This site is...
+<div style="padding-top:15px; text-align: center;"><iframe width="848" height="477" src="https://www.youtube.com/embed/jeKJp16nC30?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
